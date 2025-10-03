@@ -1,230 +1,276 @@
-[03Oct2025 22:22:01.481] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[03Oct2025 22:22:01.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[03Oct2025 22:22:01.629] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[03Oct2025 22:22:01.677] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[03Oct2025 22:22:01.939] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 22:22:01.940] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 22:22:01.942] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 22:22:01.943] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 22:22:02.090] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[03Oct2025 22:22:03.562] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03Oct2025 22:22:03.607] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[03Oct2025 22:22:03.608] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[03Oct2025 22:22:08.181] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on witherstormmod.mixins.json:MixinSwellGoal::handler$zzp000$canUseInvoke exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[03Oct2025 22:22:09.860] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[03Oct2025 22:22:09.861] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[03Oct2025 22:22:10.471] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server2/servidor_minecraft/config/witherstormmod-common.toml is not correct. Correcting
-[03Oct2025 22:22:10.472] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:10.473] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.blockClustersDropItems was corrected from null to its default, false. 
-[03Oct2025 22:22:10.473] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.shouldPickUpVehicles was corrected from null to its default, true. 
-[03Oct2025 22:22:10.474] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.phantomsOrbitWitherStorm was corrected from null to its default, true. 
-[03Oct2025 22:22:10.474] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.playerCannotDismountTentacles was corrected from null to its default, true. 
-[03Oct2025 22:22:10.475] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.injectCustomAiBehavior was corrected from null to its default, true. 
-[03Oct2025 22:22:10.475] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.injectAiMobBlacklist was corrected from null to its default, [witherstormmod:example]. 
-[03Oct2025 22:22:10.476] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.autoSpawnWitherStorm was corrected from null to its default, false. 
-[03Oct2025 22:22:10.476] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.autoSpawnTime was corrected from null to its default, 1. 
-[03Oct2025 22:22:10.679] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Starting version check at https://raw.githubusercontent.com/nonamecrackers2/cwsm-update-info/main/update_checker.json
-[03Oct2025 22:22:11.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Found status: UP_TO_DATE Current: 4.2.1 Target: null
-[03Oct2025 22:22:11.125] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03Oct2025 22:22:11.331] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[03Oct2025 22:22:12.086] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03Oct2025 22:22:12.931] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23107!/assets/.mcassetsroot' uses unexpected schema
-[03Oct2025 22:22:12.931] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23107!/data/.mcassetsroot' uses unexpected schema
-[03Oct2025 22:22:14.327] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[03Oct2025 22:22:14.431] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1353 advancements
-[03Oct2025 22:22:14.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[03Oct2025 22:22:14.914] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[03Oct2025 22:22:14.915] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[03Oct2025 22:22:14.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[03Oct2025 22:22:15.023] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[03Oct2025 22:22:15.052] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[03Oct2025 22:22:15.139] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03Oct2025 22:22:15.140] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[03Oct2025 22:22:15.140] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03Oct2025 22:22:15.140] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[03Oct2025 22:22:15.154] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/witherstormmod-server.toml is not correct. Correcting
-[03Oct2025 22:22:15.154] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.shouldChunkLoadWhenNoPlayers was corrected from null to its default, false. 
-[03Oct2025 22:22:15.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.invulnerabilityTime was corrected from null to its default, 50. 
-[03Oct2025 22:22:15.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.flyingHeight was corrected from null to its default, 75. 
-[03Oct2025 22:22:15.156] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.dynamicFlyingHeight was corrected from null to its default, false. 
-[03Oct2025 22:22:15.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.dynamicFlyingHeightTime was corrected from null to its default, 60. 
-[03Oct2025 22:22:15.157] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.tillShouldShowHole was corrected from null to its default, 6. 
-[03Oct2025 22:22:15.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.shouldShowHole was corrected from null to its default, true. 
-[03Oct2025 22:22:15.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.rotationSpeed was corrected from null to its default, 0.1. 
-[03Oct2025 22:22:15.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.witherStormInvulnerability was corrected from null to its default, true. 
-[03Oct2025 22:22:15.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.smartBossbar was corrected from null to its default, true. 
-[03Oct2025 22:22:15.159] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.randomBowelsEntrance was corrected from null to its default, true. 
-[03Oct2025 22:22:15.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.crossbowsSupportEnderPearls was corrected from null to its default, true. 
-[03Oct2025 22:22:15.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.preventWitherStormCamping was corrected from null to its default, true. 
-[03Oct2025 22:22:15.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.bowelsFallResistance was corrected from null to its default, true. 
-[03Oct2025 22:22:15.161] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.resummonedPhase was corrected from null to its default, 4. 
-[03Oct2025 22:22:15.161] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.canAttackHeads was corrected from null to its default, true. 
-[03Oct2025 22:22:15.161] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.endOfPhaseFiveBombableExclusively was corrected from null to its default, false. 
-[03Oct2025 22:22:15.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.shouldPlayGlobalSoundsCrossDimensionally was corrected from null to its default, false. 
-[03Oct2025 22:22:15.163] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.onlyTryPickingUpTractorTagged was corrected from null to its default, false. 
-[03Oct2025 22:22:15.163] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.constantBlackhole was corrected from null to its default, false. 
-[03Oct2025 22:22:15.163] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.instantChomp was corrected from null to its default, false. 
-[03Oct2025 22:22:15.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.misc.healFromChomp was corrected from null to its default, false. 
-[03Oct2025 22:22:15.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.ultimateTargetingType was corrected from null to its default, NEAREST. 
-[03Oct2025 22:22:15.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.farthestTargetingTime was corrected from null to its default, 15. 
-[03Oct2025 22:22:15.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.randomizedTargetingTime was corrected from null to its default, 15. 
-[03Oct2025 22:22:15.166] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.randomlySpeedUpWithTargetChange was corrected from null to its default, true. 
-[03Oct2025 22:22:15.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.amuletOverride was corrected from null to its default, true. 
-[03Oct2025 22:22:15.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.maxRandomStrollTargetingTypeRadius was corrected from null to its default, 500. 
-[03Oct2025 22:22:15.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.ignoreUltimateTargetIfHidden was corrected from null to its default, true. 
-[03Oct2025 22:22:15.168] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.witherStormsFollowBiggerStorms was corrected from null to its default, true. 
-[03Oct2025 22:22:15.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.chases was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.chases.shouldChaseWhenTargetStopped was corrected from null to its default, true. 
-[03Oct2025 22:22:15.169] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.chases.chaseOnPhaseChange was corrected from null to its default, true. 
-[03Oct2025 22:22:15.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.target_stationary_logic was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.170] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.target_stationary_logic.targetStationaryChunkRadius was corrected from null to its default, 8. 
-[03Oct2025 22:22:15.171] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.target_stationary_logic.targetStationaryMinutes was corrected from null to its default, 30. 
-[03Oct2025 22:22:15.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.target_stationary_logic.usePhaseAsDistanceMultiplier was corrected from null to its default, true. 
-[03Oct2025 22:22:15.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.target_stationary_logic.distanceMultiplier was corrected from null to its default, 1.0. 
-[03Oct2025 22:22:15.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.target_stationary_logic.targetRunawayMinutes was corrected from null to its default, 10. 
-[03Oct2025 22:22:15.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.runaway_attempts was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.runaway_attempts.targetRunawayAttempts was corrected from null to its default, true. 
-[03Oct2025 22:22:15.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.runaway_attempts.targetRunawayAttemptMinutes was corrected from null to its default, 2. 
-[03Oct2025 22:22:15.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.runaway_attempts.targetRunawayAttemptsRequired was corrected from null to its default, 5. 
-[03Oct2025 22:22:15.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.runaway_attempts.minutesTillRunawayAttemptDiminish was corrected from null to its default, 16. 
-[03Oct2025 22:22:15.174] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.targettingDistractionsEnabled was corrected from null to its default, true. 
-[03Oct2025 22:22:15.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.distractionTimeMinutes was corrected from null to its default, 25. 
-[03Oct2025 22:22:15.175] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.maximumDistractionDistance was corrected from null to its default, 1000. 
-[03Oct2025 22:22:15.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.minimumDistractionDistance was corrected from null to its default, 50. 
-[03Oct2025 22:22:15.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.randomDistractionChances was corrected from null to its default, true. 
-[03Oct2025 22:22:15.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.searchableRangeMultiplier was corrected from null to its default, 1. 
-[03Oct2025 22:22:15.176] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.distractionWaitTime was corrected from null to its default, 2. 
-[03Oct2025 22:22:15.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.boatingForTooLongDistractions was corrected from null to its default, true. 
-[03Oct2025 22:22:15.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.distractions.boatingForTooLongSeconds was corrected from null to its default, 60. 
-[03Oct2025 22:22:15.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.random_strolling was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.random_strolling.randomStrollingWhenTargetHidden was corrected from null to its default, true. 
-[03Oct2025 22:22:15.178] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.speed was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.speed.chasingFlyingSpeed was corrected from null to its default, 0.4. 
-[03Oct2025 22:22:15.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.ultimate_target_logic.speed.normalFlyingSpeed was corrected from null to its default, 0.02. 
-[03Oct2025 22:22:15.179] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targeting was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targeting.headEscapeTime was corrected from null to its default, 40. 
-[03Oct2025 22:22:15.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targeting.tractorPullSpeedModifier was corrected from null to its default, 0.2. 
-[03Oct2025 22:22:15.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targeting.specialTargetingBias was corrected from null to its default, true. 
-[03Oct2025 22:22:15.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targeting.specialTargetingBiasChance was corrected from null to its default, 75. 
-[03Oct2025 22:22:15.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.evolution was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.181] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.evolution.evolutionAttributeModifier was corrected from null to its default, 1.0. 
-[03Oct2025 22:22:15.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.performance was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.performance.clustersRemoveItems was corrected from null to its default, true. 
-[03Oct2025 22:22:15.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.performance.squashHitbox was corrected from null to its default, false. 
-[03Oct2025 22:22:15.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.performance.chunkLoadingRadius was corrected from null to its default, 12. 
-[03Oct2025 22:22:15.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.performance.removeNearbyJunk was corrected from null to its default, true. 
-[03Oct2025 22:22:15.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.performance.mobsRunIntoPortals was corrected from null to its default, true. 
-[03Oct2025 22:22:15.183] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.hunchbackClusterPickupInterval was corrected from null to its default, 20. 
-[03Oct2025 22:22:15.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.clusterPickupInterval was corrected from null to its default, 40. 
-[03Oct2025 22:22:15.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.devourerClusterPickupInterval was corrected from null to its default, 40. 
-[03Oct2025 22:22:15.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.canPickupMobClusters was corrected from null to its default, true. 
-[03Oct2025 22:22:15.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.clusterSizeModifier was corrected from null to its default, 0. 
-[03Oct2025 22:22:15.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.tractorBeamClusterPickUp was corrected from null to its default, true. 
-[03Oct2025 22:22:15.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.tractorBeamsRemoveFluids was corrected from null to its default, true. 
-[03Oct2025 22:22:15.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.blockClusterPullSpeedModifier was corrected from null to its default, 1.0. 
-[03Oct2025 22:22:15.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.tractorBeamClusterSpeedModifier was corrected from null to its default, 1.0. 
-[03Oct2025 22:22:15.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.tractorBeamBlockSearchRadius was corrected from null to its default, 10. 
-[03Oct2025 22:22:15.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.canClustersSpiralCounterClockwise was corrected from null to its default, false. 
-[03Oct2025 22:22:15.187] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.convertFallingBlocks was corrected from null to its default, false. 
-[03Oct2025 22:22:15.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.world_consumption.tractorBeamFluidRemovalHeight was corrected from null to its default, 63. 
-[03Oct2025 22:22:15.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves.caveRumbles was corrected from null to its default, true. 
-[03Oct2025 22:22:15.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves.occludeSoundsUnderground was corrected from null to its default, true. 
-[03Oct2025 22:22:15.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves.caveRumbleIntensity was corrected from null to its default, 0.25. 
-[03Oct2025 22:22:15.189] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves.chanceForExtendedRumbles was corrected from null to its default, true. 
-[03Oct2025 22:22:15.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves.caveRumbleIntervalMin was corrected from null to its default, 60. 
-[03Oct2025 22:22:15.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves.caveRumbleIntervalMax was corrected from null to its default, 180. 
-[03Oct2025 22:22:15.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.caves.caveRumblesMessWithRedstone was corrected from null to its default, true. 
-[03Oct2025 22:22:15.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.witherSicknessEnabled was corrected from null to its default, true. 
-[03Oct2025 22:22:15.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.sickenedMobConversions was corrected from null to its default, true. 
-[03Oct2025 22:22:15.191] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.increaseAmplifier was corrected from null to its default, true. 
-[03Oct2025 22:22:15.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.requiredContacts was corrected from null to its default, 6. 
-[03Oct2025 22:22:15.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.requiredProximitySeconds was corrected from null to its default, 600. 
-[03Oct2025 22:22:15.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.applicationDelay was corrected from null to its default, 720. 
-[03Oct2025 22:22:15.192] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.cureDelay was corrected from null to its default, 480. 
-[03Oct2025 22:22:15.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.lowImmuneRequiredProximitySeconds was corrected from null to its default, 360. 
-[03Oct2025 22:22:15.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.lowImmuneApplicationDelay was corrected from null to its default, 410. 
-[03Oct2025 22:22:15.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.lowImmuneCureDelay was corrected from null to its default, 480. 
-[03Oct2025 22:22:15.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.proximitySecondsModifierMax was corrected from null to its default, 180. 
-[03Oct2025 22:22:15.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.applicationDelayModifierMax was corrected from null to its default, 300. 
-[03Oct2025 22:22:15.194] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.cureDelayModifierMax was corrected from null to its default, 180. 
-[03Oct2025 22:22:15.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.lowImmuneProximityModifierMax was corrected from null to its default, 180. 
-[03Oct2025 22:22:15.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.lowImmuneApplicationModifierMax was corrected from null to its default, 140. 
-[03Oct2025 22:22:15.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.lowImmuneCureDelayModifierMax was corrected from null to its default, 180. 
-[03Oct2025 22:22:15.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither_sickness.keepSicknessAfterRespawn was corrected from null to its default, true. 
-[03Oct2025 22:22:15.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.craftFuseTicks was corrected from null to its default, 12000. 
-[03Oct2025 22:22:15.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.catchFireFuseTicks was corrected from null to its default, 1200. 
-[03Oct2025 22:22:15.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.shouldDropFromInventory was corrected from null to its default, true. 
-[03Oct2025 22:22:15.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.dropInterval was corrected from null to its default, 4. 
-[03Oct2025 22:22:15.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.lowerBlockResistance was corrected from null to its default, true. 
-[03Oct2025 22:22:15.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.formidibombFuseEnabled was corrected from null to its default, true. 
-[03Oct2025 22:22:15.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing_dead was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing_dead.revivalTimer was corrected from null to its default, true. 
-[03Oct2025 22:22:15.198] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing_dead.revivalTimeMinutes was corrected from null to its default, 60. 
-[03Oct2025 22:22:15.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing_dead.revivalPlayerProtection was corrected from null to its default, 3. 
-[03Oct2025 22:22:15.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.canSummonSymbiont was corrected from null to its default, true. 
-[03Oct2025 22:22:15.199] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.shouldSymbiontAttackMobs was corrected from null to its default, false. 
-[03Oct2025 22:22:15.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.minimumSpawnCheckInterval was corrected from null to its default, 60. 
-[03Oct2025 22:22:15.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.witherStormSummoningDelay was corrected from null to its default, 10. 
-[03Oct2025 22:22:15.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.playerInvulnerableTime was corrected from null to its default, 5. 
-[03Oct2025 22:22:15.200] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.playerSummoningDelay was corrected from null to its default, 10. 
-[03Oct2025 22:22:15.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.playerSummoningDelayOnKill was corrected from null to its default, 40. 
-[03Oct2025 22:22:15.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.attackableWhenNotVulnerable was corrected from null to its default, false. 
-[03Oct2025 22:22:15.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.bookDropsInInventory was corrected from null to its default, true. 
-[03Oct2025 22:22:15.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered_symbiont.healthScalePerPlayer was corrected from null to its default, 20.0. 
-[03Oct2025 22:22:15.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.flaming_skulls was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.flaming_skulls.flamingSkullExplosionSize was corrected from null to its default, 5.0. 
-[03Oct2025 22:22:15.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.flaming_skulls.flamingSkullSpeedModifier was corrected from null to its default, 1.0. 
-[03Oct2025 22:22:15.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.roaring was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.roaring.minimumRoarInterval was corrected from null to its default, 20. 
-[03Oct2025 22:22:15.203] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.roaring.maximumRoarInterval was corrected from null to its default, 50. 
-[03Oct2025 22:22:15.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.item_preservation was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 22:22:15.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.item_preservation.itemPreservation was corrected from null to its default, CHOMPED_OR_KILLED_NEAR_HEAD. 
-[03Oct2025 22:22:15.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.item_preservation.preserveDropsForAllMobs was corrected from null to its default, false. 
-[03Oct2025 22:22:15.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.flyingEnabledWarning was corrected from null to its default, true. 
-[03Oct2025 22:22:15.249] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[03Oct2025 22:22:22.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[03Oct2025 22:22:25.020] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 22:22:25.023] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 22:22:25.025] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 22:22:25.027] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 22:22:25.028] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 22:22:25.030] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 22:22:25.031] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 22:22:25.510] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[03Oct2025 22:22:26.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[03Oct2025 22:22:26.512] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[03Oct2025 22:22:27.013] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[03Oct2025 22:22:27.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[03Oct2025 22:22:27.526] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5516 ms
-[03Oct2025 22:22:27.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.374s)! For help, type "help"
-[03Oct2025 22:22:27.546] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[03Oct2025 22:23:09.137] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iuseimpact[/127.183.241.68:46091] logged in with entity id 158 at (-3.5895207585017186, 102.0, 10.108374322013526)
-[03Oct2025 22:23:09.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact joined the game
-[03Oct2025 22:23:36.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Set own game mode to Creative Mode]
-[03Oct2025 22:23:54.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Teleported iuseimpact to 0.500000, 166.243138, 0.500000]
-[03Oct2025 22:23:57.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Teleported iuseimpact to 0.500000, 166.243138, 0.500000]
-[03Oct2025 22:24:04.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Set own game mode to Survival Mode]
-[03Oct2025 22:24:06.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Set own game mode to Spectator Mode]
-[03Oct2025 22:24:54.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Set own game mode to Survival Mode]
-[03Oct2025 22:25:06.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[03Oct2025 22:25:06.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[03Oct2025 22:25:06.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[03Oct2025 22:25:06.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[03Oct2025 22:25:06.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03Oct2025 22:25:07.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
-[03Oct2025 22:25:07.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03Oct2025 22:25:07.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03Oct2025 22:25:07.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03Oct2025 22:25:07.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
-[03Oct2025 22:25:07.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03Oct2025 22:25:07.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03Oct2025 22:25:07.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03Oct2025 23:36:32.158] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[03Oct2025 23:36:32.164] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[03Oct2025 23:36:32.436] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[03Oct2025 23:36:32.487] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[03Oct2025 23:36:32.736] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:36:32.737] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:36:32.739] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:36:32.740] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[03Oct2025 23:36:32.894] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[03Oct2025 23:36:34.688] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Oct2025 23:36:34.732] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[03Oct2025 23:36:40.321] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on witherstormmod.mixins.json:MixinSwellGoal::handler$zzp000$canUseInvoke exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03Oct2025 23:36:42.238] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[03Oct2025 23:36:42.239] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[03Oct2025 23:36:44.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Starting version check at https://raw.githubusercontent.com/nonamecrackers2/cwsm-update-info/main/update_checker.json
+[03Oct2025 23:36:44.694] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Found status: UP_TO_DATE Current: 4.2.1 Target: null
+[03Oct2025 23:36:44.696] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Oct2025 23:36:44.830] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[03Oct2025 23:36:44.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[03Oct2025 23:36:44.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[03Oct2025 23:36:46.425] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Oct2025 23:36:46.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:bestiary_page Expected: 1474 Got: 1552
+[03Oct2025 23:36:46.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:egg_hatch Expected: 1475 Got: 1553
+[03Oct2025 23:36:46.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_breath Expected: 1476 Got: 1554
+[03Oct2025 23:36:46.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_breath Expected: 1477 Got: 1555
+[03Oct2025 23:36:46.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_idle Expected: 1478 Got: 1556
+[03Oct2025 23:36:46.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_hurt Expected: 1479 Got: 1557
+[03Oct2025 23:36:46.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_death Expected: 1480 Got: 1558
+[03Oct2025 23:36:46.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_roar Expected: 1481 Got: 1559
+[03Oct2025 23:36:46.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_roar Expected: 1482 Got: 1560
+[03Oct2025 23:36:46.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_idle Expected: 1483 Got: 1561
+[03Oct2025 23:36:46.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_death Expected: 1484 Got: 1562
+[03Oct2025 23:36:46.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_hurt Expected: 1485 Got: 1563
+[03Oct2025 23:36:46.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_roar Expected: 1486 Got: 1564
+[03Oct2025 23:36:46.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_idle Expected: 1487 Got: 1565
+[03Oct2025 23:36:46.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_death Expected: 1488 Got: 1566
+[03Oct2025 23:36:46.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_hurt Expected: 1489 Got: 1567
+[03Oct2025 23:36:46.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_idle Expected: 1490 Got: 1568
+[03Oct2025 23:36:46.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_hurt Expected: 1491 Got: 1569
+[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_death Expected: 1492 Got: 1570
+[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_roar Expected: 1493 Got: 1571
+[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_roar Expected: 1494 Got: 1572
+[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_idle Expected: 1495 Got: 1573
+[03Oct2025 23:36:46.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_death Expected: 1496 Got: 1574
+[03Oct2025 23:36:46.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_hurt Expected: 1497 Got: 1575
+[03Oct2025 23:36:46.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_roar Expected: 1498 Got: 1576
+[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_idle Expected: 1499 Got: 1577
+[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_death Expected: 1500 Got: 1578
+[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_hurt Expected: 1501 Got: 1579
+[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dragonflute Expected: 1502 Got: 1580
+[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_idle Expected: 1503 Got: 1581
+[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_hurt Expected: 1504 Got: 1582
+[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_die Expected: 1505 Got: 1583
+[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_idle Expected: 1506 Got: 1584
+[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_hurt Expected: 1507 Got: 1585
+[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_die Expected: 1508 Got: 1586
+[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_attack Expected: 1509 Got: 1587
+[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_petrify Expected: 1510 Got: 1588
+[03Oct2025 23:36:46.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:turn_stone Expected: 1511 Got: 1589
+[03Oct2025 23:36:46.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_idle Expected: 1512 Got: 1590
+[03Oct2025 23:36:46.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_hurt Expected: 1513 Got: 1591
+[03Oct2025 23:36:46.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_die Expected: 1514 Got: 1592
+[03Oct2025 23:36:46.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_taunt Expected: 1515 Got: 1593
+[03Oct2025 23:36:46.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gold_pile_step Expected: 1516 Got: 1594
+[03Oct2025 23:36:46.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gold_pile_break Expected: 1517 Got: 1595
+[03Oct2025 23:36:46.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dragon_flight Expected: 1518 Got: 1596
+[03Oct2025 23:36:46.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_idle Expected: 1519 Got: 1597
+[03Oct2025 23:36:46.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_hurt Expected: 1520 Got: 1598
+[03Oct2025 23:36:46.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_die Expected: 1521 Got: 1599
+[03Oct2025 23:36:46.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_bite Expected: 1522 Got: 1600
+[03Oct2025 23:36:46.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_blinded Expected: 1523 Got: 1601
+[03Oct2025 23:36:46.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_idle Expected: 1524 Got: 1602
+[03Oct2025 23:36:46.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_hurt Expected: 1525 Got: 1603
+[03Oct2025 23:36:46.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_die Expected: 1526 Got: 1604
+[03Oct2025 23:36:46.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_idle Expected: 1527 Got: 1605
+[03Oct2025 23:36:46.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_attack Expected: 1528 Got: 1606
+[03Oct2025 23:36:46.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_hurt Expected: 1529 Got: 1607
+[03Oct2025 23:36:46.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_die Expected: 1530 Got: 1608
+[03Oct2025 23:36:46.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_idle Expected: 1531 Got: 1609
+[03Oct2025 23:36:46.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_attack Expected: 1532 Got: 1610
+[03Oct2025 23:36:46.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_hurt Expected: 1533 Got: 1611
+[03Oct2025 23:36:46.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_die Expected: 1534 Got: 1612
+[03Oct2025 23:36:46.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_idle Expected: 1535 Got: 1613
+[03Oct2025 23:36:46.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_attack Expected: 1536 Got: 1614
+[03Oct2025 23:36:46.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_hurt Expected: 1537 Got: 1615
+[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_die Expected: 1538 Got: 1616
+[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_idle Expected: 1539 Got: 1617
+[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_hurt Expected: 1540 Got: 1618
+[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_die Expected: 1541 Got: 1619
+[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:siren_song Expected: 1542 Got: 1620
+[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_die Expected: 1543 Got: 1621
+[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_idle Expected: 1544 Got: 1622
+[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_hurt Expected: 1545 Got: 1623
+[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_roar Expected: 1546 Got: 1624
+[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_die Expected: 1547 Got: 1625
+[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_idle Expected: 1548 Got: 1626
+[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_hurt Expected: 1549 Got: 1627
+[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_cry Expected: 1550 Got: 1628
+[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_die Expected: 1551 Got: 1629
+[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_idle Expected: 1552 Got: 1630
+[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_hurt Expected: 1553 Got: 1631
+[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_attack Expected: 1554 Got: 1632
+[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_die Expected: 1555 Got: 1633
+[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_idle Expected: 1556 Got: 1634
+[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_hurt Expected: 1557 Got: 1635
+[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_walk Expected: 1558 Got: 1636
+[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_bite Expected: 1559 Got: 1637
+[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_sting Expected: 1560 Got: 1638
+[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_die Expected: 1561 Got: 1639
+[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_idle Expected: 1562 Got: 1640
+[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_hurt Expected: 1563 Got: 1641
+[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_bite Expected: 1564 Got: 1642
+[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_gust Expected: 1565 Got: 1643
+[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_die Expected: 1566 Got: 1644
+[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_idle Expected: 1567 Got: 1645
+[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_hurt Expected: 1568 Got: 1646
+[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_bite Expected: 1569 Got: 1647
+[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_roar Expected: 1570 Got: 1648
+[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_breath Expected: 1571 Got: 1649
+[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_splash Expected: 1572 Got: 1650
+[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_die Expected: 1573 Got: 1651
+[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_idle Expected: 1574 Got: 1652
+[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_hurt Expected: 1575 Got: 1653
+[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_spit Expected: 1576 Got: 1654
+[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_regen_head Expected: 1577 Got: 1655
+[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_wand Expected: 1578 Got: 1656
+[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dread_lich_summon Expected: 1579 Got: 1657
+[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dread_ghoul_idle Expected: 1580 Got: 1658
+[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_idle Expected: 1581 Got: 1659
+[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_hurt Expected: 1582 Got: 1660
+[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_death Expected: 1583 Got: 1661
+[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_roar Expected: 1584 Got: 1662
+[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_roar Expected: 1585 Got: 1663
+[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_idle Expected: 1586 Got: 1664
+[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_death Expected: 1587 Got: 1665
+[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_hurt Expected: 1588 Got: 1666
+[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_roar Expected: 1589 Got: 1667
+[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_idle Expected: 1590 Got: 1668
+[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_death Expected: 1591 Got: 1669
+[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_hurt Expected: 1592 Got: 1670
+[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_breath Expected: 1593 Got: 1671
+[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_breath_crackle Expected: 1594 Got: 1672
+[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_idle Expected: 1595 Got: 1673
+[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_hurt Expected: 1596 Got: 1674
+[03Oct2025 23:36:46.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_die Expected: 1597 Got: 1675
+[03Oct2025 23:36:46.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_attack Expected: 1598 Got: 1676
+[03Oct2025 23:36:46.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_jumpscare Expected: 1599 Got: 1677
+[03Oct2025 23:36:47.472] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
+[03Oct2025 23:36:47.472] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
+[03Oct2025 23:36:49.600] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[03Oct2025 23:36:49.783] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2492 advancements
+[03Oct2025 23:36:50.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[03Oct2025 23:36:50.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[03Oct2025 23:36:50.566] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[03Oct2025 23:36:50.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Oct2025 23:36:50.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[03Oct2025 23:36:50.736] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[03Oct2025 23:36:50.878] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03Oct2025 23:36:50.878] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[03Oct2025 23:36:50.879] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03Oct2025 23:36:50.879] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[03Oct2025 23:36:50.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cave_dweller-server.toml is not correct. Correcting
+[03Oct2025 23:36:50.929] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.930] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.930] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_min was corrected from null to its default, 300. 
+[03Oct2025 23:36:50.931] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_max was corrected from null to its default, 600. 
+[03Oct2025 23:36:50.931] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown_chance was corrected from null to its default, 0.4. 
+[03Oct2025 23:36:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown was corrected from null to its default, 1200. 
+[03Oct2025 23:36:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_min was corrected from null to its default, 240. 
+[03Oct2025 23:36:50.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_max was corrected from null to its default, 360. 
+[03Oct2025 23:36:50.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave was corrected from null to its default, 300. 
+[03Oct2025 23:36:50.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave_chase was corrected from null to its default, 30. 
+[03Oct2025 23:36:50.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.surface_timer_multiplier was corrected from null to its default, 1.0. 
+[03Oct2025 23:36:50.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.944] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_chance_per_tick was corrected from null to its default, 0.005. 
+[03Oct2025 23:36:50.944] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_height was corrected from null to its default, 40. 
+[03Oct2025 23:36:50.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.allow_surface_spawn was corrected from null to its default, false. 
+[03Oct2025 23:36:50.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.sky_light_level was corrected from null to its default, 8. 
+[03Oct2025 23:36:50.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.block_light_level was corrected from null to its default, 15. 
+[03Oct2025 23:36:50.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.maximum_amount was corrected from null to its default, 5. 
+[03Oct2025 23:36:50.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_distance was corrected from null to its default, 16. 
+[03Oct2025 23:36:50.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.check_path_to_spawn was corrected from null to its default, true. 
+[03Oct2025 23:36:50.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions.dimension_whitelist was corrected from null to its default, [minecraft:overworld]. 
+[03Oct2025 23:36:50.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.override_biome_datapack_config was corrected from null to its default, false. 
+[03Oct2025 23:36:50.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes_is_whitelist was corrected from null to its default, true. 
+[03Oct2025 23:36:50.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes was corrected from null to its default, []. 
+[03Oct2025 23:36:50.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.964] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.spotting_range was corrected from null to its default, 60. 
+[03Oct2025 23:36:50.965] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_climb was corrected from null to its default, true. 
+[03Oct2025 23:36:50.965] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_break_door was corrected from null to its default, true. 
+[03Oct2025 23:36:50.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.break_door_time was corrected from null to its default, 3. 
+[03Oct2025 23:36:50.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.allow_riding was corrected from null to its default, false. 
+[03Oct2025 23:36:50.967] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.target_invisible was corrected from null to its default, true. 
+[03Oct2025 23:36:50.967] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Oct2025 23:36:50.969] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_health was corrected from null to its default, 60.0. 
+[03Oct2025 23:36:50.970] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_damage was corrected from null to its default, 6.0. 
+[03Oct2025 23:36:50.971] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_speed was corrected from null to its default, 0.35. 
+[03Oct2025 23:36:50.972] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.movement_speed was corrected from null to its default, 0.5. 
+[03Oct2025 23:36:50.972] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.depth_strider_bonus was corrected from null to its default, 1.5. 
+[03Oct2025 23:36:50.975] [Thread-1/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[03Oct2025 23:36:50.981] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
+[03Oct2025 23:36:50.981] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
+[03Oct2025 23:36:50.982] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
+[03Oct2025 23:36:50.983] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
+[03Oct2025 23:36:50.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
+[03Oct2025 23:36:50.986] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
+[03Oct2025 23:36:50.990] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
+[03Oct2025 23:36:50.994] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
+[03Oct2025 23:36:50.996] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 3. 
+[03Oct2025 23:36:51.000] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
+[03Oct2025 23:36:51.002] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
+[03Oct2025 23:36:51.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
+[03Oct2025 23:36:51.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
+[03Oct2025 23:36:51.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
+[03Oct2025 23:36:51.010] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
+[03Oct2025 23:36:51.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
+[03Oct2025 23:36:51.013] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
+[03Oct2025 23:36:51.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
+[03Oct2025 23:36:51.019] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
+[03Oct2025 23:36:51.021] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
+[03Oct2025 23:36:51.022] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
+[03Oct2025 23:36:51.026] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
+[03Oct2025 23:36:51.028] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
+[03Oct2025 23:36:51.031] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
+[03Oct2025 23:36:51.032] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
+[03Oct2025 23:36:51.035] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
+[03Oct2025 23:36:51.037] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
+[03Oct2025 23:36:51.040] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
+[03Oct2025 23:36:51.041] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
+[03Oct2025 23:36:51.045] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
+[03Oct2025 23:36:51.047] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
+[03Oct2025 23:36:51.051] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
+[03Oct2025 23:36:51.054] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_viewing_enabled was corrected from null to its default, true. 
+[03Oct2025 23:36:51.057] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_view_distance was corrected from null to its default, 16. 
+[03Oct2025 23:36:51.059] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla_tool_block_breaking was corrected from null to its default, true. 
+[03Oct2025 23:36:51.062] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key always_drop was corrected from null to its default, true. 
+[03Oct2025 23:36:51.068] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_breaking_non_owned_blocks was corrected from null to its default, false. 
+[03Oct2025 23:36:51.070] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key non_owned_breaking_slowdown was corrected from null to its default, 1.0. 
+[03Oct2025 23:36:51.074] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
+[03Oct2025 23:36:51.075] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
+[03Oct2025 23:36:51.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[03Oct2025 23:36:56.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Oct2025 23:36:59.792] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:36:59.793] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:36:59.794] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:36:59.794] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:36:59.795] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:36:59.796] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:36:59.810] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Oct2025 23:37:00.311] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[03Oct2025 23:37:00.810] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[03Oct2025 23:37:01.006] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4197 ms
+[03Oct2025 23:37:01.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.105s)! For help, type "help"
+[03Oct2025 23:37:01.048] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Oct2025 23:37:01.050] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[03Oct2025 23:37:01.050] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[03Oct2025 23:39:17.455] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@9e618bc[id=<null>,name=iuseimpact,properties={},legacy=false] (/127.183.241.68:53955) lost connection: Disconnected
+[03Oct2025 23:40:14.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[03Oct2025 23:40:14.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: restart<--[HERE]
+[03Oct2025 23:40:30.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[03Oct2025 23:40:30.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Oct2025 23:40:30.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Oct2025 23:40:30.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Oct2025 23:40:31.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03Oct2025 23:40:32.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03Oct2025 23:40:32.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
+[03Oct2025 23:40:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03Oct2025 23:40:32.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03Oct2025 23:40:32.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Oct2025 23:40:32.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[03Oct2025 23:40:32.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Oct2025 23:40:32.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
