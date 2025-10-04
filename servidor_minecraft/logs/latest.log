@@ -1,276 +1,47 @@
-[03Oct2025 23:36:32.158] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[03Oct2025 23:36:32.164] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[03Oct2025 23:36:32.436] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[03Oct2025 23:36:32.487] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[03Oct2025 23:36:32.736] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 23:36:32.737] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 23:36:32.739] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 23:36:32.740] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[03Oct2025 23:36:32.894] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[03Oct2025 23:36:34.688] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03Oct2025 23:36:34.732] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[03Oct2025 23:36:40.321] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on witherstormmod.mixins.json:MixinSwellGoal::handler$zzp000$canUseInvoke exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[03Oct2025 23:36:42.238] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[03Oct2025 23:36:42.239] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[03Oct2025 23:36:44.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Starting version check at https://raw.githubusercontent.com/nonamecrackers2/cwsm-update-info/main/update_checker.json
-[03Oct2025 23:36:44.694] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Found status: UP_TO_DATE Current: 4.2.1 Target: null
-[03Oct2025 23:36:44.696] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03Oct2025 23:36:44.830] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[03Oct2025 23:36:44.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[03Oct2025 23:36:44.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[03Oct2025 23:36:46.425] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03Oct2025 23:36:46.601] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:bestiary_page Expected: 1474 Got: 1552
-[03Oct2025 23:36:46.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:egg_hatch Expected: 1475 Got: 1553
-[03Oct2025 23:36:46.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_breath Expected: 1476 Got: 1554
-[03Oct2025 23:36:46.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_breath Expected: 1477 Got: 1555
-[03Oct2025 23:36:46.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_idle Expected: 1478 Got: 1556
-[03Oct2025 23:36:46.603] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_hurt Expected: 1479 Got: 1557
-[03Oct2025 23:36:46.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_death Expected: 1480 Got: 1558
-[03Oct2025 23:36:46.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_child_roar Expected: 1481 Got: 1559
-[03Oct2025 23:36:46.604] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_roar Expected: 1482 Got: 1560
-[03Oct2025 23:36:46.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_idle Expected: 1483 Got: 1561
-[03Oct2025 23:36:46.605] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_death Expected: 1484 Got: 1562
-[03Oct2025 23:36:46.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_teen_hurt Expected: 1485 Got: 1563
-[03Oct2025 23:36:46.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_roar Expected: 1486 Got: 1564
-[03Oct2025 23:36:46.606] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_idle Expected: 1487 Got: 1565
-[03Oct2025 23:36:46.607] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_death Expected: 1488 Got: 1566
-[03Oct2025 23:36:46.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:firedragon_adult_hurt Expected: 1489 Got: 1567
-[03Oct2025 23:36:46.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_idle Expected: 1490 Got: 1568
-[03Oct2025 23:36:46.608] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_hurt Expected: 1491 Got: 1569
-[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_death Expected: 1492 Got: 1570
-[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_child_roar Expected: 1493 Got: 1571
-[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_roar Expected: 1494 Got: 1572
-[03Oct2025 23:36:46.609] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_idle Expected: 1495 Got: 1573
-[03Oct2025 23:36:46.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_death Expected: 1496 Got: 1574
-[03Oct2025 23:36:46.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_teen_hurt Expected: 1497 Got: 1575
-[03Oct2025 23:36:46.610] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_roar Expected: 1498 Got: 1576
-[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_idle Expected: 1499 Got: 1577
-[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_death Expected: 1500 Got: 1578
-[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:icedragon_adult_hurt Expected: 1501 Got: 1579
-[03Oct2025 23:36:46.611] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dragonflute Expected: 1502 Got: 1580
-[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_idle Expected: 1503 Got: 1581
-[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_hurt Expected: 1504 Got: 1582
-[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippogryph_die Expected: 1505 Got: 1583
-[03Oct2025 23:36:46.612] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_idle Expected: 1506 Got: 1584
-[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_hurt Expected: 1507 Got: 1585
-[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_die Expected: 1508 Got: 1586
-[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_attack Expected: 1509 Got: 1587
-[03Oct2025 23:36:46.613] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gorgon_petrify Expected: 1510 Got: 1588
-[03Oct2025 23:36:46.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:turn_stone Expected: 1511 Got: 1589
-[03Oct2025 23:36:46.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_idle Expected: 1512 Got: 1590
-[03Oct2025 23:36:46.614] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_hurt Expected: 1513 Got: 1591
-[03Oct2025 23:36:46.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_die Expected: 1514 Got: 1592
-[03Oct2025 23:36:46.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_taunt Expected: 1515 Got: 1593
-[03Oct2025 23:36:46.615] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gold_pile_step Expected: 1516 Got: 1594
-[03Oct2025 23:36:46.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:gold_pile_break Expected: 1517 Got: 1595
-[03Oct2025 23:36:46.616] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dragon_flight Expected: 1518 Got: 1596
-[03Oct2025 23:36:46.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_idle Expected: 1519 Got: 1597
-[03Oct2025 23:36:46.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_hurt Expected: 1520 Got: 1598
-[03Oct2025 23:36:46.617] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_die Expected: 1521 Got: 1599
-[03Oct2025 23:36:46.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_bite Expected: 1522 Got: 1600
-[03Oct2025 23:36:46.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cyclops_blinded Expected: 1523 Got: 1601
-[03Oct2025 23:36:46.618] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_idle Expected: 1524 Got: 1602
-[03Oct2025 23:36:46.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_hurt Expected: 1525 Got: 1603
-[03Oct2025 23:36:46.619] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hippocampus_die Expected: 1526 Got: 1604
-[03Oct2025 23:36:46.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_idle Expected: 1527 Got: 1605
-[03Oct2025 23:36:46.620] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_attack Expected: 1528 Got: 1606
-[03Oct2025 23:36:46.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_hurt Expected: 1529 Got: 1607
-[03Oct2025 23:36:46.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_die Expected: 1530 Got: 1608
-[03Oct2025 23:36:46.621] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_idle Expected: 1531 Got: 1609
-[03Oct2025 23:36:46.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_attack Expected: 1532 Got: 1610
-[03Oct2025 23:36:46.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_hurt Expected: 1533 Got: 1611
-[03Oct2025 23:36:46.622] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:deathworm_giant_die Expected: 1534 Got: 1612
-[03Oct2025 23:36:46.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_idle Expected: 1535 Got: 1613
-[03Oct2025 23:36:46.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_attack Expected: 1536 Got: 1614
-[03Oct2025 23:36:46.623] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_hurt Expected: 1537 Got: 1615
-[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:naga_die Expected: 1538 Got: 1616
-[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_idle Expected: 1539 Got: 1617
-[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_hurt Expected: 1540 Got: 1618
-[03Oct2025 23:36:46.624] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:mermaid_die Expected: 1541 Got: 1619
-[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:siren_song Expected: 1542 Got: 1620
-[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_die Expected: 1543 Got: 1621
-[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_idle Expected: 1544 Got: 1622
-[03Oct2025 23:36:46.625] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_hurt Expected: 1545 Got: 1623
-[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:troll_roar Expected: 1546 Got: 1624
-[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_die Expected: 1547 Got: 1625
-[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_idle Expected: 1548 Got: 1626
-[03Oct2025 23:36:46.626] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_hurt Expected: 1549 Got: 1627
-[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:cockatrice_cry Expected: 1550 Got: 1628
-[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_die Expected: 1551 Got: 1629
-[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_idle Expected: 1552 Got: 1630
-[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_hurt Expected: 1553 Got: 1631
-[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:stymphalian_bird_attack Expected: 1554 Got: 1632
-[03Oct2025 23:36:46.627] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_die Expected: 1555 Got: 1633
-[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_idle Expected: 1556 Got: 1634
-[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_hurt Expected: 1557 Got: 1635
-[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_walk Expected: 1558 Got: 1636
-[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_bite Expected: 1559 Got: 1637
-[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:myrmex_sting Expected: 1560 Got: 1638
-[03Oct2025 23:36:46.628] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_die Expected: 1561 Got: 1639
-[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_idle Expected: 1562 Got: 1640
-[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_hurt Expected: 1563 Got: 1641
-[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_bite Expected: 1564 Got: 1642
-[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:amphithere_gust Expected: 1565 Got: 1643
-[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_die Expected: 1566 Got: 1644
-[03Oct2025 23:36:46.629] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_idle Expected: 1567 Got: 1645
-[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_hurt Expected: 1568 Got: 1646
-[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_bite Expected: 1569 Got: 1647
-[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_roar Expected: 1570 Got: 1648
-[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_breath Expected: 1571 Got: 1649
-[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:sea_serpent_splash Expected: 1572 Got: 1650
-[03Oct2025 23:36:46.630] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_die Expected: 1573 Got: 1651
-[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_idle Expected: 1574 Got: 1652
-[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_hurt Expected: 1575 Got: 1653
-[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_spit Expected: 1576 Got: 1654
-[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:hydra_regen_head Expected: 1577 Got: 1655
-[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:pixie_wand Expected: 1578 Got: 1656
-[03Oct2025 23:36:46.631] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dread_lich_summon Expected: 1579 Got: 1657
-[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:dread_ghoul_idle Expected: 1580 Got: 1658
-[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_idle Expected: 1581 Got: 1659
-[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_hurt Expected: 1582 Got: 1660
-[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_death Expected: 1583 Got: 1661
-[03Oct2025 23:36:46.632] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_child_roar Expected: 1584 Got: 1662
-[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_roar Expected: 1585 Got: 1663
-[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_idle Expected: 1586 Got: 1664
-[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_death Expected: 1587 Got: 1665
-[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_teen_hurt Expected: 1588 Got: 1666
-[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_roar Expected: 1589 Got: 1667
-[03Oct2025 23:36:46.633] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_idle Expected: 1590 Got: 1668
-[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_death Expected: 1591 Got: 1669
-[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_adult_hurt Expected: 1592 Got: 1670
-[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_breath Expected: 1593 Got: 1671
-[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:lightningdragon_breath_crackle Expected: 1594 Got: 1672
-[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_idle Expected: 1595 Got: 1673
-[03Oct2025 23:36:46.634] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_hurt Expected: 1596 Got: 1674
-[03Oct2025 23:36:46.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_die Expected: 1597 Got: 1675
-[03Oct2025 23:36:46.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_attack Expected: 1598 Got: 1676
-[03Oct2025 23:36:46.635] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: iceandfire:ghost_jumpscare Expected: 1599 Got: 1677
-[03Oct2025 23:36:47.472] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/assets/.mcassetsroot' uses unexpected schema
-[03Oct2025 23:36:47.472] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23123!/data/.mcassetsroot' uses unexpected schema
-[03Oct2025 23:36:49.600] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[03Oct2025 23:36:49.783] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2492 advancements
-[03Oct2025 23:36:50.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[03Oct2025 23:36:50.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[03Oct2025 23:36:50.566] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[03Oct2025 23:36:50.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[03Oct2025 23:36:50.710] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[03Oct2025 23:36:50.736] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[03Oct2025 23:36:50.878] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03Oct2025 23:36:50.878] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[03Oct2025 23:36:50.879] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03Oct2025 23:36:50.879] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[03Oct2025 23:36:50.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cave_dweller-server.toml is not correct. Correcting
-[03Oct2025 23:36:50.929] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.930] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.930] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_min was corrected from null to its default, 300. 
-[03Oct2025 23:36:50.931] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_max was corrected from null to its default, 600. 
-[03Oct2025 23:36:50.931] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown_chance was corrected from null to its default, 0.4. 
-[03Oct2025 23:36:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown was corrected from null to its default, 1200. 
-[03Oct2025 23:36:50.932] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_min was corrected from null to its default, 240. 
-[03Oct2025 23:36:50.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_max was corrected from null to its default, 360. 
-[03Oct2025 23:36:50.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave was corrected from null to its default, 300. 
-[03Oct2025 23:36:50.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave_chase was corrected from null to its default, 30. 
-[03Oct2025 23:36:50.939] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.surface_timer_multiplier was corrected from null to its default, 1.0. 
-[03Oct2025 23:36:50.943] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.944] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_chance_per_tick was corrected from null to its default, 0.005. 
-[03Oct2025 23:36:50.944] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_height was corrected from null to its default, 40. 
-[03Oct2025 23:36:50.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.allow_surface_spawn was corrected from null to its default, false. 
-[03Oct2025 23:36:50.947] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.sky_light_level was corrected from null to its default, 8. 
-[03Oct2025 23:36:50.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.block_light_level was corrected from null to its default, 15. 
-[03Oct2025 23:36:50.948] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.maximum_amount was corrected from null to its default, 5. 
-[03Oct2025 23:36:50.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_distance was corrected from null to its default, 16. 
-[03Oct2025 23:36:50.949] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.check_path_to_spawn was corrected from null to its default, true. 
-[03Oct2025 23:36:50.950] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.952] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions.dimension_whitelist was corrected from null to its default, [minecraft:overworld]. 
-[03Oct2025 23:36:50.954] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.955] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.override_biome_datapack_config was corrected from null to its default, false. 
-[03Oct2025 23:36:50.957] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes_is_whitelist was corrected from null to its default, true. 
-[03Oct2025 23:36:50.959] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes was corrected from null to its default, []. 
-[03Oct2025 23:36:50.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.964] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.spotting_range was corrected from null to its default, 60. 
-[03Oct2025 23:36:50.965] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_climb was corrected from null to its default, true. 
-[03Oct2025 23:36:50.965] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_break_door was corrected from null to its default, true. 
-[03Oct2025 23:36:50.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.break_door_time was corrected from null to its default, 3. 
-[03Oct2025 23:36:50.966] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.allow_riding was corrected from null to its default, false. 
-[03Oct2025 23:36:50.967] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.target_invisible was corrected from null to its default, true. 
-[03Oct2025 23:36:50.967] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
-[03Oct2025 23:36:50.969] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_health was corrected from null to its default, 60.0. 
-[03Oct2025 23:36:50.970] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_damage was corrected from null to its default, 6.0. 
-[03Oct2025 23:36:50.971] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_speed was corrected from null to its default, 0.35. 
-[03Oct2025 23:36:50.972] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.movement_speed was corrected from null to its default, 0.5. 
-[03Oct2025 23:36:50.972] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.depth_strider_bonus was corrected from null to its default, 1.5. 
-[03Oct2025 23:36:50.975] [Thread-1/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[03Oct2025 23:36:50.981] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
-[03Oct2025 23:36:50.981] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
-[03Oct2025 23:36:50.982] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
-[03Oct2025 23:36:50.983] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
-[03Oct2025 23:36:50.984] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
-[03Oct2025 23:36:50.986] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
-[03Oct2025 23:36:50.990] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
-[03Oct2025 23:36:50.994] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
-[03Oct2025 23:36:50.996] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 3. 
-[03Oct2025 23:36:51.000] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
-[03Oct2025 23:36:51.002] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
-[03Oct2025 23:36:51.004] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
-[03Oct2025 23:36:51.005] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
-[03Oct2025 23:36:51.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
-[03Oct2025 23:36:51.010] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
-[03Oct2025 23:36:51.011] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
-[03Oct2025 23:36:51.013] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
-[03Oct2025 23:36:51.015] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
-[03Oct2025 23:36:51.019] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
-[03Oct2025 23:36:51.021] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
-[03Oct2025 23:36:51.022] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
-[03Oct2025 23:36:51.026] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
-[03Oct2025 23:36:51.028] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
-[03Oct2025 23:36:51.031] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
-[03Oct2025 23:36:51.032] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
-[03Oct2025 23:36:51.035] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
-[03Oct2025 23:36:51.037] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
-[03Oct2025 23:36:51.040] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
-[03Oct2025 23:36:51.041] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
-[03Oct2025 23:36:51.045] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
-[03Oct2025 23:36:51.047] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
-[03Oct2025 23:36:51.051] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
-[03Oct2025 23:36:51.054] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_viewing_enabled was corrected from null to its default, true. 
-[03Oct2025 23:36:51.057] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_view_distance was corrected from null to its default, 16. 
-[03Oct2025 23:36:51.059] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla_tool_block_breaking was corrected from null to its default, true. 
-[03Oct2025 23:36:51.062] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key always_drop was corrected from null to its default, true. 
-[03Oct2025 23:36:51.068] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_breaking_non_owned_blocks was corrected from null to its default, false. 
-[03Oct2025 23:36:51.070] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key non_owned_breaking_slowdown was corrected from null to its default, 1.0. 
-[03Oct2025 23:36:51.074] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
-[03Oct2025 23:36:51.075] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
-[03Oct2025 23:36:51.181] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[03Oct2025 23:36:56.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[03Oct2025 23:36:59.792] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:59.793] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:59.794] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:59.794] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:59.795] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:59.796] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:36:59.810] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[03Oct2025 23:37:00.311] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[03Oct2025 23:37:00.810] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[03Oct2025 23:37:01.006] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4197 ms
-[03Oct2025 23:37:01.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.105s)! For help, type "help"
-[03Oct2025 23:37:01.048] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[03Oct2025 23:37:01.050] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[03Oct2025 23:37:01.050] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[03Oct2025 23:39:17.455] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@9e618bc[id=<null>,name=iuseimpact,properties={},legacy=false] (/127.183.241.68:53955) lost connection: Disconnected
-[03Oct2025 23:40:14.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[03Oct2025 23:40:14.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: restart<--[HERE]
-[03Oct2025 23:40:30.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[03Oct2025 23:40:30.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[03Oct2025 23:40:30.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[03Oct2025 23:40:30.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[03Oct2025 23:40:31.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03Oct2025 23:40:32.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03Oct2025 23:40:32.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
-[03Oct2025 23:40:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03Oct2025 23:40:32.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03Oct2025 23:40:32.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03Oct2025 23:40:32.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
-[03Oct2025 23:40:32.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03Oct2025 23:40:32.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Oct2025 00:00:30.653] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-63, y=103, z=-5}
+[04Oct2025 00:00:31.106] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-5}
+[04Oct2025 00:00:31.157] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:00:31.361] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:00:31.459] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:00:32.303] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-63, y=103, z=-5}
+[04Oct2025 00:00:32.452] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-63, y=103, z=-5}
+[04Oct2025 00:00:32.524] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-64, y=103, z=-5}
+[04Oct2025 00:00:32.561] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-64, y=103, z=-5}
+[04Oct2025 00:01:09.256] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-65, y=103, z=-6}
+[04Oct2025 00:01:09.361] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-65, y=103, z=-5}
+[04Oct2025 00:01:09.408] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-65, y=103, z=-5}
+[04Oct2025 00:01:09.847] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-63, y=103, z=-4}
+[04Oct2025 00:01:09.904] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-63, y=103, z=-4}
+[04Oct2025 00:01:09.948] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-62, y=103, z=-5}
+[04Oct2025 00:01:10.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:10.148] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:10.200] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-60, y=103, z=-6}
+[04Oct2025 00:01:10.250] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-60, y=103, z=-6}
+[04Oct2025 00:01:10.351] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:10.401] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-60, y=103, z=-6}
+[04Oct2025 00:01:10.452] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-60, y=103, z=-6}
+[04Oct2025 00:01:10.602] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:10.805] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:11.010] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:11.205] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:11.407] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:11.611] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-61, y=103, z=-6}
+[04Oct2025 00:01:14.748] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-81, y=104, z=-9} BlockPos{x=-64, y=105, z=-11}
+[04Oct2025 00:01:41.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Set own game mode to Survival Mode]
+[04Oct2025 00:10:15.025] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact lost connection: Disconnected
+[04Oct2025 00:10:15.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact left the game
+[04Oct2025 00:10:20.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[04Oct2025 00:10:20.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Oct2025 00:10:20.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Oct2025 00:10:20.721] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gamer777_lol lost connection: Disconnected
+[04Oct2025 00:10:20.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamer777_lol left the game
+[04Oct2025 00:10:20.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Oct2025 00:10:21.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Oct2025 00:10:22.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Oct2025 00:10:22.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Oct2025 00:10:22.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
+[04Oct2025 00:10:22.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Oct2025 00:10:22.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Oct2025 00:10:22.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Oct2025 00:10:22.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[04Oct2025 00:10:22.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
