@@ -172,3 +172,19 @@
 [04Oct2025 23:16:43.820] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Elbenjixx lost connection: Disconnected
 [04Oct2025 23:16:43.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Elbenjixx left the game
 [04Oct2025 23:19:14.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DAIAMONTCAT has made the advancement [I Spy With My Little Eye]
+[04Oct2025 23:19:26.554] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iuseimpact[/127.183.241.68:41893] logged in with entity id 36262 at (551.2921192355916, 38.80280218824763, -911.2988941718801)
+[04Oct2025 23:19:26.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact joined the game
+[04Oct2025 23:20:02.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact has made the advancement [Cover Me with Diamonds]
+[04Oct2025 23:20:11.808] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DAIAMONTCAT lost connection: Disconnected
+[04Oct2025 23:20:11.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DAIAMONTCAT left the game
+[04Oct2025 23:20:14.403] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/214, l='ServerLevel[world]', x=543.70, y=68.25, z=-934.50] died, message: 'Farmer was slain by Zombie'
+[04Oct2025 23:20:39.697] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gamer777_lol lost connection: Disconnected
+[04Oct2025 23:20:39.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamer777_lol left the game
+[04Oct2025 23:21:07.397] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame lost connection: Disconnected
+[04Oct2025 23:21:07.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame left the game
+[04Oct2025 23:21:23.654] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gamer777_lol[/127.91.10.95:40559] logged in with entity id 37451 at (568.6204586875837, 70.0625, -961.9574367287375)
+[04Oct2025 23:21:23.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamer777_lol joined the game
+[04Oct2025 23:21:32.497] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gamer777_lol lost connection: Disconnected
+[04Oct2025 23:21:32.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamer777_lol left the game
+[04Oct2025 23:22:41.455] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LiansGame[/127.221.55.138:38417] logged in with entity id 37806 at (564.6275095487811, 69.5625, -987.1651010571915)
+[04Oct2025 23:22:41.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame joined the game

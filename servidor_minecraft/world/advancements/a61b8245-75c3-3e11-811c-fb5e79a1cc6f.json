@@ -2093,6 +2093,12 @@
     },
     "done": true
   },
+  "witherstormmod:main/amulet": {
+    "criteria": {
+      "inventory_changed": "2025-10-04 23:19:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
       "has_diamond": "2025-10-04 23:01:56 +0000"

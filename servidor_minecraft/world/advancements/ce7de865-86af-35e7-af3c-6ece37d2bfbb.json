@@ -1151,7 +1151,8 @@
       "minecraft:ravager": "2025-10-04 04:45:48 +0000",
       "minecraft:vindicator": "2025-10-04 04:45:53 +0000",
       "minecraft:witch": "2025-10-04 04:43:04 +0000",
-      "minecraft:zombie": "2025-10-04 04:16:38 +0000"
+      "minecraft:zombie": "2025-10-04 04:16:38 +0000",
+      "minecraft:zombie_villager": "2025-10-04 23:17:28 +0000"
     },
     "done": false
   },
@@ -2943,27 +2944,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2025-10-04 22:52:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2025-10-04 22:51:07 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye_from_cornflower": {
-    "criteria": {
-      "has_cornflower": "2025-10-04 22:54:31 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-10-04 22:51:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-10-04 22:52:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-10-04 22:54:31 +0000"
     },
     "done": true
   },
