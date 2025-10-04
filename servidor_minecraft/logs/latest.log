@@ -147,3 +147,28 @@
 [04Oct2025 22:55:41.714] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22587ms or 451 ticks behind
 [04Oct2025 22:56:05.608] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=583, y=69, z=-999} BlockPos{x=584, y=68, z=-999}
 [04Oct2025 22:56:13.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact has made the advancement [Enchanter]
+[04Oct2025 23:00:58.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact fell from a high place
+[04Oct2025 23:01:56.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DAIAMONTCAT has made the advancement [Diamonds!]
+[04Oct2025 23:07:03.270] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame lost connection: Disconnected
+[04Oct2025 23:07:03.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame left the game
+[04Oct2025 23:07:22.069] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LiansGame[/127.221.55.138:41127] logged in with entity id 25505 at (496.28482190898035, 58.04858673376821, -605.5275918296585)
+[04Oct2025 23:07:22.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame joined the game
+[04Oct2025 23:07:28.813] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame lost connection: Disconnected
+[04Oct2025 23:07:28.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame left the game
+[04Oct2025 23:08:32.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DAIAMONTCAT was slain by Cave Dweller
+[04Oct2025 23:08:50.715] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LiansGame[/127.221.55.138:49993] logged in with entity id 26803 at (498.81808984416676, 62.46718715053259, -607.5537561521403)
+[04Oct2025 23:08:50.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame joined the game
+[04Oct2025 23:08:55.784] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame lost connection: Disconnected
+[04Oct2025 23:08:55.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame left the game
+[04Oct2025 23:09:03.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Teleported DAIAMONTCAT to iuseimpact]
+[04Oct2025 23:09:51.163] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LiansGame[/127.221.55.138:60671] logged in with entity id 27666 at (495.3446846853164, 72.33229927696792, -603.7478297859031)
+[04Oct2025 23:09:51.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame joined the game
+[04Oct2025 23:09:51.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Teleported LiansGame to gamer777_lol]
+[04Oct2025 23:13:33.073] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Elbenjixx[/127.226.66.93:50427] logged in with entity id 30567 at (545.6149272363637, 104.0, -1491.0452648234366)
+[04Oct2025 23:13:33.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Elbenjixx joined the game
+[04Oct2025 23:15:15.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact lost connection: Disconnected
+[04Oct2025 23:15:15.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact left the game
+[04Oct2025 23:15:49.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Elbenjixx has made the advancement [It Bites]
+[04Oct2025 23:16:43.820] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Elbenjixx lost connection: Disconnected
+[04Oct2025 23:16:43.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Elbenjixx left the game
+[04Oct2025 23:19:14.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DAIAMONTCAT has made the advancement [I Spy With My Little Eye]

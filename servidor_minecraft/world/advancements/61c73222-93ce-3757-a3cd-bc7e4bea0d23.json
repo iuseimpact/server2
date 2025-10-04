@@ -594,6 +594,7 @@
       "minecraft:spider": "2025-10-04 01:51:10 +0000",
       "minecraft:creeper": "2025-10-04 01:07:34 +0000",
       "minecraft:witch": "2025-10-04 04:44:39 +0000",
+      "minecraft:cave_spider": "2025-10-04 23:03:01 +0000",
       "minecraft:vex": "2025-10-04 04:44:47 +0000",
       "minecraft:zombie": "2025-10-04 01:50:22 +0000",
       "minecraft:drowned": "2025-10-04 01:24:36 +0000"
@@ -2831,6 +2832,30 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-10-04 23:01:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-10-04 22:56:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-10-04 23:03:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-10-04 23:03:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2025-10-04 22:50:23 +0000"
@@ -2846,6 +2871,12 @@
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2025-10-04 22:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-10-04 23:03:40 +0000"
     },
     "done": true
   },
