@@ -188,3 +188,20 @@
 [04Oct2025 23:21:32.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamer777_lol left the game
 [04Oct2025 23:22:41.455] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LiansGame[/127.221.55.138:38417] logged in with entity id 37806 at (564.6275095487811, 69.5625, -987.1651010571915)
 [04Oct2025 23:22:41.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame joined the game
+[04Oct2025 23:29:48.302] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DAIAMONTCAT[/127.34.165.147:50409] logged in with entity id 40896 at (562.1674644837166, 69.0, -985.6999999880791)
+[04Oct2025 23:29:48.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DAIAMONTCAT joined the game
+[04Oct2025 23:30:03.056] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=727, y=54, z=-682} BlockPos{x=725, y=52, z=-681}
+[04Oct2025 23:30:24.808] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=754, y=56, z=-661} BlockPos{x=754, y=55, z=-661}
+[04Oct2025 23:32:29.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DAIAMONTCAT moved wrongly!
+[04Oct2025 23:34:16.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame has made the advancement [Not Today, Thank You]
+[04Oct2025 23:35:18.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DAIAMONTCAT was slain by Dread Ghoul
+[04Oct2025 23:35:52.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Teleported DAIAMONTCAT to 500.500000, 70.000000, -919.500000]
+[04Oct2025 23:36:49.011] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame moved wrongly!
+[04Oct2025 23:38:28.803] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact lost connection: Disconnected
+[04Oct2025 23:38:28.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact left the game
+[04Oct2025 23:38:28.850] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[04Oct2025 23:38:49.510] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iuseimpact[/127.183.241.68:49503] logged in with entity id 52450 at (1339.0757520743953, 97.16986083984375, -198.1597780796431)
+[04Oct2025 23:38:49.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact joined the game
+[04Oct2025 23:38:54.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact fell from a high place
+[04Oct2025 23:39:02.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [iuseimpact: Teleported iuseimpact to LiansGame]
+[04Oct2025 23:39:08.608] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame moved wrongly!
