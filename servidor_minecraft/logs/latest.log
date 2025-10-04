@@ -133,3 +133,17 @@
 [04Oct2025 22:44:10.161] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DAIAMONTCAT moved wrongly!
 [04Oct2025 22:47:08.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact moved wrongly!
 [04Oct2025 22:47:10.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact moved wrongly!
+[04Oct2025 22:48:38.128] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[04Oct2025 22:50:23.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact has made the advancement [Ice Bucket Challenge]
+[04Oct2025 22:51:04.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame has made the advancement [Cover Me with Diamonds]
+[04Oct2025 22:55:04.171] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14144ms or 282 ticks behind
+[04Oct2025 22:55:04.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact moved too quickly! 9.26178627189131,-1.2538907259487644,3.7088926780629663
+[04Oct2025 22:55:04.441] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DAIAMONTCAT moved too quickly! 9.083010165144515,2.176759275064242,-4.2449584406928125
+[04Oct2025 22:55:04.447] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gamer777_lol moved too quickly! -2.4618030211861424,1.4199999868869781,-9.847753632151807
+[04Oct2025 22:55:33.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact moved too quickly! -9.776870117158637,2.1661092609382138,0.9736701678459667
+[04Oct2025 22:55:33.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DAIAMONTCAT moved too quickly! -9.727233050451673,-1.0,2.7855131097495587
+[04Oct2025 22:55:33.619] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gamer777_lol moved too quickly! 8.723905409996291,-1.3331999936342243,5.239048478988593
+[04Oct2025 22:55:33.695] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame moved too quickly! -8.240537257385313,1.2491870787446828,5.614351829377426
+[04Oct2025 22:55:41.714] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 22587ms or 451 ticks behind
+[04Oct2025 22:56:05.608] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=583, y=69, z=-999} BlockPos{x=584, y=68, z=-999}
+[04Oct2025 22:56:13.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact has made the advancement [Enchanter]
