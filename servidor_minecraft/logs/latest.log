@@ -1,75 +1,106 @@
-[04Oct2025 00:12:31.395] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[04Oct2025 00:12:31.400] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[04Oct2025 00:12:31.628] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Oct2025 00:12:31.677] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Oct2025 00:12:31.954] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 00:12:31.955] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 00:12:31.957] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 00:12:31.958] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Oct2025 00:12:32.129] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[04Oct2025 00:12:33.826] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Oct2025 00:12:33.876] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[04Oct2025 00:12:39.359] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on witherstormmod.mixins.json:MixinSwellGoal::handler$zzp000$canUseInvoke exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[04Oct2025 00:12:41.002] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[04Oct2025 00:12:41.002] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[04Oct2025 00:12:42.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Starting version check at https://raw.githubusercontent.com/nonamecrackers2/cwsm-update-info/main/update_checker.json
-[04Oct2025 00:12:43.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Found status: UP_TO_DATE Current: 4.2.1 Target: null
-[04Oct2025 00:12:43.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Oct2025 00:12:43.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[04Oct2025 00:12:43.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[04Oct2025 00:12:43.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[04Oct2025 00:12:44.971] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[04Oct2025 00:12:46.195] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23125!/assets/.mcassetsroot' uses unexpected schema
-[04Oct2025 00:12:46.195] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23125!/data/.mcassetsroot' uses unexpected schema
-[04Oct2025 00:12:48.070] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[04Oct2025 00:12:48.202] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2492 advancements
-[04Oct2025 00:12:49.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[04Oct2025 00:12:49.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[04Oct2025 00:12:49.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[04Oct2025 00:12:49.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[04Oct2025 00:12:49.214] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[04Oct2025 00:12:49.243] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[04Oct2025 00:12:49.326] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04Oct2025 00:12:49.326] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[04Oct2025 00:12:49.327] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04Oct2025 00:12:49.327] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[04Oct2025 00:12:49.354] [Thread-1/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[04Oct2025 00:12:49.358] [Thread-1/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[04Oct2025 00:12:49.459] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[04Oct2025 00:12:54.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Oct2025 00:12:57.919] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:57.931] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:57.932] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:57.977] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:58.042] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:58.057] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:58.076] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:58.310] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[04Oct2025 00:12:58.810] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
-[04Oct2025 00:12:59.310] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[04Oct2025 00:12:59.394] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4585 ms
-[04Oct2025 00:12:59.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.054s)! For help, type "help"
-[04Oct2025 00:12:59.419] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[04Oct2025 00:12:59.420] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[04Oct2025 00:12:59.420] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[04Oct2025 00:15:24.786] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: gamer777_lol[/127.91.10.95:54745] logged in with entity id 243 at (-79.34356325613241, 107.17675927506424, -18.131529579425788)
-[04Oct2025 00:15:24.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamer777_lol joined the game
-[04Oct2025 00:15:45.946] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iuseimpact[/127.183.241.68:37735] logged in with entity id 323 at (-62.51338058231636, 104.0, -4.908488281793478)
-[04Oct2025 00:15:46.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact joined the game
-[04Oct2025 00:15:50.630] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact lost connection: Disconnected
-[04Oct2025 00:15:50.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact left the game
-[04Oct2025 00:18:25.929] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: gamer777_lol lost connection: Disconnected
-[04Oct2025 00:18:25.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamer777_lol left the game
-[04Oct2025 00:24:48.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[04Oct2025 00:24:48.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04Oct2025 00:24:48.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04Oct2025 00:24:48.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04Oct2025 00:24:48.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04Oct2025 00:24:49.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
-[04Oct2025 00:24:49.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04Oct2025 00:24:49.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04Oct2025 00:24:49.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04Oct2025 00:24:49.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
-[04Oct2025 00:24:49.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04Oct2025 00:24:49.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04Oct2025 00:24:49.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Oct2025 01:16:28.166] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Oct2025 01:16:28.170] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[04Oct2025 01:16:28.494] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Oct2025 01:16:28.545] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server2/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Oct2025 01:16:28.817] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 01:16:28.818] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 01:16:28.819] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 01:16:28.821] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server2/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Oct2025 01:16:29.083] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[04Oct2025 01:16:31.039] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Oct2025 01:16:31.072] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[04Oct2025 01:16:31.107] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Oct2025 01:16:32.909] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[04Oct2025 01:16:36.563] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on witherstormmod.mixins.json:MixinSwellGoal::handler$zcj000$canUseInvoke exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Oct2025 01:16:38.760] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/server2/servidor_minecraft/config/yacl.json5'
+[04Oct2025 01:16:38.962] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Oct2025 01:16:38.963] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Oct2025 01:16:40.619] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[04Oct2025 01:16:40.857] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[04Oct2025 01:16:40.860] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[04Oct2025 01:16:40.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[04Oct2025 01:16:40.946] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Starting version check at https://raw.githubusercontent.com/nonamecrackers2/cwsm-update-info/main/update_checker.json
+[04Oct2025 01:16:40.959] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [witherstormmod] Found status: UP_TO_DATE Current: 4.2.1 Target: null
+[04Oct2025 01:16:40.959] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Oct2025 01:16:41.068] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[04Oct2025 01:16:42.470] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Oct2025 01:16:42.645] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap Expected: 35 Got: 37
+[04Oct2025 01:16:42.646] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap_harmful Expected: 36 Got: 38
+[04Oct2025 01:16:42.646] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar Expected: 37 Got: 39
+[04Oct2025 01:16:42.647] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar_harmful Expected: 38 Got: 40
+[04Oct2025 01:16:42.647] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints Expected: 39 Got: 41
+[04Oct2025 01:16:42.647] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints_harmful Expected: 40 Got: 42
+[04Oct2025 01:16:42.647] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps Expected: 41 Got: 43
+[04Oct2025 01:16:42.648] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps_harmful Expected: 42 Got: 44
+[04Oct2025 01:16:43.625] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
+[04Oct2025 01:16:43.626] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server2/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
+[04Oct2025 01:16:45.545] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[04Oct2025 01:16:45.705] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2507 advancements
+[04Oct2025 01:16:46.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Oct2025 01:16:46.583] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Oct2025 01:16:46.583] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Oct2025 01:16:46.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Oct2025 01:16:46.801] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Oct2025 01:16:46.825] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Oct2025 01:16:46.908] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Oct2025 01:16:46.909] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Oct2025 01:16:46.909] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Oct2025 01:16:46.909] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Oct2025 01:16:46.937] [Thread-1/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[04Oct2025 01:16:46.940] [Thread-1/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[04Oct2025 01:16:47.046] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Oct2025 01:16:52.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Oct2025 01:16:55.383] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 01:16:55.398] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 01:16:55.403] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 01:16:55.407] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 01:16:55.414] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 01:16:55.436] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 01:16:55.798] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Oct2025 01:16:56.296] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[04Oct2025 01:16:56.796] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[04Oct2025 01:16:56.977] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[04Oct2025 01:16:57.025] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4230 ms
+[04Oct2025 01:16:57.026] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.103s)! For help, type "help"
+[04Oct2025 01:16:57.061] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Oct2025 01:16:57.065] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[04Oct2025 01:16:57.065] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[04Oct2025 01:17:04.316] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6edb426c[id=<null>,name=LiansGame,properties={},legacy=false] (/127.221.55.138:38505) lost connection: Disconnected
+[04Oct2025 01:17:41.368] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@226d84d6[id=<null>,name=iuseimpact,properties={},legacy=false] (/127.183.241.68:51491) lost connection: Disconnected
+[04Oct2025 01:18:21.168] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@348bb8f8[id=<null>,name=Elbenjixx,properties={},legacy=false] (/127.59.125.195:46471) lost connection: Disconnected
+[04Oct2025 01:18:55.182] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iuseimpact[/127.183.241.68:49783] logged in with entity id 289 at (82.89827668395651, 62.0, -125.71152679447212)
+[04Oct2025 01:18:55.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact joined the game
+[04Oct2025 01:18:58.065] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@69ff041f[id=<null>,name=Elbenjixx,properties={},legacy=false] (/127.59.125.195:47667) lost connection: Disconnected
+[04Oct2025 01:20:08.991] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LiansGame[/127.221.55.138:49819] logged in with entity id 734 at (72.13800287871392, 63.0, -131.4297610219588)
+[04Oct2025 01:20:08.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame joined the game
+[04Oct2025 01:20:25.391] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Elbenjixx[/127.59.125.195:48519] logged in with entity id 811 at (20.479294005649184, 73.0, 62.012320028833805)
+[04Oct2025 01:20:25.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Elbenjixx joined the game
+[04Oct2025 01:20:27.046] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=68, y=61, z=-139} BlockPos{x=68, y=62, z=-139}
+[04Oct2025 01:20:28.085] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=69, y=61, z=-139} BlockPos{x=69, y=62, z=-139}
+[04Oct2025 01:20:55.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame suffocated in a wall
+[04Oct2025 01:21:18.600] [Worker-Main-3/INFO] [citadel/]: vanilla surface rule behavior unchanged
+[04Oct2025 01:25:39.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact has made the advancement [Acquire Hardware]
+[04Oct2025 01:26:00.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Elbenjixx has made the advancement [Acquire Hardware]
+[04Oct2025 01:28:00.187] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LiansGame lost connection: Disconnected
+[04Oct2025 01:28:00.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LiansGame left the game
+[04Oct2025 01:28:37.480] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact lost connection: Disconnected
+[04Oct2025 01:28:37.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact left the game
+[04Oct2025 01:28:47.845] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: iuseimpact[/127.183.241.68:56863] logged in with entity id 5216 at (75.75789437923713, 63.0, -130.90040364509815)
+[04Oct2025 01:28:47.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact joined the game
+[04Oct2025 01:29:27.776] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Elbenjixx lost connection: Disconnected
+[04Oct2025 01:29:27.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Elbenjixx left the game
+[04Oct2025 01:32:35.528] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iuseimpact lost connection: Disconnected
+[04Oct2025 01:32:35.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iuseimpact left the game
+[04Oct2025 01:32:38.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[04Oct2025 01:32:38.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Oct2025 01:32:38.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Oct2025 01:32:38.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Oct2025 01:32:38.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Oct2025 01:32:39.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
+[04Oct2025 01:32:39.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Oct2025 01:32:39.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Oct2025 01:32:39.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Oct2025 01:32:39.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[04Oct2025 01:32:39.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Oct2025 01:32:39.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Oct2025 01:32:39.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
